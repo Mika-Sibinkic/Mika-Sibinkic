@@ -2,7 +2,7 @@
 
 Founder of [Null Systems](https://nullsystemsllc.com), an applied-AI consultancy. I go into a company, find the workflow that costs the most time or money, and build the system that removes it. Discovery through production, then I hand it off and keep it running.
 
-Most of my code is private. Every production system below was built for a client and lives in their repo or mine under an agreement that keeps it that way. The contribution graph is real; the repos behind it are not public. What I can show is below, and I will walk through any of the private codebases on a call.
+Most of this work was built for clients. Three of those codebases are public below with the client data stripped out; the rest stay private under the agreements that cover them. I will walk through any of the private ones on a call.
 
 ## What I have shipped
 
@@ -16,8 +16,18 @@ Most of my code is private. Every production system below was built for a client
 
 ## What is public
 
-- **[null-systems-nsos](https://github.com/Mika-Sibinkic/null-systems-nsos)**: my own diagnostic engine. Six parallel agent teams run question batteries against a company's data snapshot, reconcile findings, and produce a CEO-language opportunity report. Internal prototype, runs end to end on a synthetic client, tests in CI.
-- **[ai-delivery-playbook](https://github.com/Mika-Sibinkic/ai-delivery-playbook)**: the rules I run AI coding agents under on client work. Verification ladder, decision tiers, secrets discipline, when an agent may act alone and when it stops. Written and revised over months of real deployments; failure modes in it were measured from session transcripts, not imagined.
+Client work, published with the client data, credentials, staff names, and infrastructure details removed by history rewrite. Commit history and dates are the real ones.
+
+- [jetloan-fsi-public](https://github.com/Mika-Sibinkic/jetloan-fsi-public): the Funding Source Index for JetLoan Capital. Production codebase, about 180 commits over five months, 796 tests in CI. Lender names in the public copy are placeholders.
+- [jetloan-contact-extractor-public](https://github.com/Mika-Sibinkic/jetloan-contact-extractor-public): the on-prem email-to-CRM pipeline. Curated export of the n8n node code, workflow definitions, and Windows hardening scripts. The private original holds the run history and test fixtures built from real emails.
+- [aperture-vision](https://github.com/Mika-Sibinkic/aperture-vision): the Cul2vate donation-weighing system. Full history, 43 commits, includes the training loop and the on-site iPad client.
+
+My own work:
+
+- [null-systems-nsos](https://github.com/Mika-Sibinkic/null-systems-nsos): a diagnostic engine that turns a firm's accounting data into a ranked, dollar-grounded opportunity report. Internal prototype, runs end to end on a synthetic client, FastAPI engine behind a Next.js front end, 145 tests in CI.
+- [ai-delivery-playbook](https://github.com/Mika-Sibinkic/ai-delivery-playbook): the rules I run AI coding agents under on client work. Verification ladder, decision tiers, secrets discipline, when an agent may act alone and when it stops. Written and revised over months of real deployments. The failure modes in it were measured from session transcripts.
+
+Still private: MicroScout (contract terms), and a handful of client repos where the client's identity is in the repo name itself.
 
 ## How I work with AI
 
