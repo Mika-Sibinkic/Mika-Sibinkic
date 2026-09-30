@@ -4,7 +4,7 @@ Founder of [Null Systems](https://nullsystemsllc.com), an applied-AI consultancy
 
 Most of this work was built for clients and three of those repos are public below this with client data stripped out and disclosures respected. Sadly, the rest will have to stay private under agreements of mine.
 
-## What I have shipped
+## What I've shipped
 
 | System | Client | What it does | Stack |
 |---|---|---|---|
